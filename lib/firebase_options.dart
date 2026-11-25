@@ -63,13 +63,14 @@ class DefaultFirebaseOptions {
     projectId: 'signin-ac427',
     storageBucket: 'signin-ac427.firebasestorage.app',
   );
-
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyBFcnqyrl6WhlD5EKGUR5XlJsAFBFrL1uo',
     appId: '1:911564203636:ios:f1db2668fb653989185321',
     messagingSenderId: '911564203636',
     projectId: 'signin-ac427',
     storageBucket: 'signin-ac427.firebasestorage.app',
+    androidClientId: '911564203636-04vl7jbsl9ktjoc529u5ue8jrft6lbig.apps.googleusercontent.com',
+    iosClientId: '911564203636-7pv9nqp1c41r70uktmpvtboinudv148s.apps.googleusercontent.com',
     iosBundleId: 'com.example.cceTask9',
   );
 }
